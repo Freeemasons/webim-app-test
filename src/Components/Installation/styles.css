@@ -1,0 +1,89 @@
+/* @font-face {
+  font-family: "ubuntu";
+  src: local("HelveticaNeueCyr-Light"), url("../../ubuntu.ttf") format("ttf");
+  font-weight: 200;
+  font-style: normal;
+} */
+
+.Container-Main {
+  max-width: 100%;
+  margin-left: 37%;
+  margin-right: 37%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.Installation-Section {
+  background-color: #eff4f4;
+  padding-top: 85px;
+  padding-bottom: 70px;
+  font-family: "ubuntu";
+}
+
+.Installation-paragraph {
+  color: #74757b;
+  text-align: start;
+  font-size: 18px;
+}
+
+.Installation-h1Header {
+  color: #393e6b;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: start;
+}
+
+.u-Padding30 {
+  padding-top: 33px;
+}
+
+
+
+.Button {
+  padding: 10px;
+  border: 0;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.Button--standartText {
+  margin: 2px 0;
+  min-width: 263px;
+  background: #2cd3b8;
+  cursor: pointer;
+  color: white;
+  padding-right: 20px;
+  font-size: 14.4px;
+  height: 48px;
+  text-transform: uppercase;
+  font-size: 14.4px;
+}
+
+.Button--standartTextTransparent {
+  background-color: transparent;
+  color: #393e6b;
+  border: 1px solid #393e6b;
+}
+
+.Button--marRight20{
+  margin-right: 20px;
+}
+
+@media (max-width: 750px) { 
+  .Installation-h1Header {
+    margin-bottom: 66px;
+    font-size: 45px;
+  }
+  .u-Padding30 {
+    margin-top: 50px;
+  } 
+  .Button--standartText {
+    min-width: 616px;
+    min-height: 93px;
+    font-size: 24px;
+    margin-bottom: 35px;
+
+  }
+}

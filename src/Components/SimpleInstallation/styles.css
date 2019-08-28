@@ -1,0 +1,38 @@
+.Installation-Navigation {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.u-bgWhite {
+  background-color: #fff;
+}
+
+.SimpleInstallation-Link {
+  margin-left: 48px;
+  margin-top: 10px;
+  text-align: start;
+}
+
+@media (max-width: 760px) { 
+  .SimpleInstallation-Link{
+    font-size: 24px;
+  }
+}
+
+.SimpleInstallation-linkColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  
+}
+
+.u-mRight {
+  margin-right: 100px;
+}
+
+.simpleInstImg {
+  height: 108px;
+}

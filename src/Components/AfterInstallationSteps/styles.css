@@ -1,0 +1,50 @@
+/* .Installation-paragrap--afterInst1 {
+  list-style-image: url("../step_01.svg");
+} */
+
+.imgAfter {
+  max-width: 75px;
+  height: 100px;
+  margin-right: 37px;
+}
+
+.AfterInst-ListItem {
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+  align-items: center;
+  color: #393e6b;
+}
+
+.Button--standartBgBlue{
+  background-color: #393e6b;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.AfterInstListItem--h3{
+  margin-right: 10px;
+  color: #393e6b;
+}
+
+.Installationparagraph--after{
+  color: #393e6b;
+  font-weight: lighter;
+}
+
+@media (max-width: 760px) { 
+  .Installationparagraph--after{
+    font-size: 24px;
+  }
+}
+
+.firstInstAfterPar {
+  margin-bottom: 69px;
+}
+
+
+@media (max-width: 760px) { 
+  .firstInstAfterPar{
+    font-size: 24px;
+  }
+}

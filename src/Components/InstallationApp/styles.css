@@ -1,0 +1,17 @@
+.InstApp {
+    margin-bottom: 80px;
+}
+
+@media (max-width: 750px) { 
+    .InstApp {
+        font-size: 24px;
+    }
+    .Installation-link{
+        font-size: 30px;
+    }
+    .InstallationHtml-p{
+        font-size: 24px;
+    }
+  }
+  
+

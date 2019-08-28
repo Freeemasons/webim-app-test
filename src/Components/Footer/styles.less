@@ -1,0 +1,108 @@
+.Footer {
+    background-color: @navy;
+    font-family: "ubuntu";
+    padding-top: 62px;
+    padding-bottom: 62px;
+    position: relative;
+  }
+  
+  .Footer-smallText {
+    color: #aeb1c3;
+    font-size: 15px;
+  }
+  
+  @navy: #393e6b;
+  
+  .u-whiteText {
+    color: white;
+  }
+  
+  .Footer-bigText {
+    font-size: 16px;
+    color: white;
+  }
+  
+  .Footer-Logo {
+    max-height: 35px;
+    max-width: 150px;
+  }
+  
+  .Footer-Icon {
+    max-width: 26px;
+    color: #aeb1c3;
+    margin-right: 25px;
+  }
+  
+  .Footer-Navigation {
+    list-style-type: none;
+    text-align: start;
+  }
+  
+  .Navigation-Menu--footerRightLayout {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(95px, 1fr)); */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: start;
+  }
+  
+  .u-spaceBetween {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Footer-liMainNumber{
+    font-size: 25px;
+    color: #fff;
+    padding-bottom: 24px;
+  }
+  
+  .Footer-liNumber{
+    font-size: 22px;
+    padding-bottom: 13px;
+  }
+  
+  @media (max-width: 760px) { 
+    .Footer-mobileHide {
+      display: none;
+    }
+    .Footer-Navigation{
+      padding: 59px 0 52px 44px;
+      
+    }
+    .Footer-smallText {
+      font-size: 28px;
+    }
+  }
+  
+  .Footer-smallText--emailC {
+  }
+  
+  .Footer-smallText--emailS{
+    margin-bottom: 19px;
+    margin-top: 11px;
+  }
+  
+  .Footer-contactsCity{
+    padding-bottom: 29px;
+  }
+  
+  .Footer-schedule{
+    padding-bottom: 22px;
+  }
+  
+  .Footer-ChatButton{
+    /* position: absolute;
+    z-index: 1;
+    bottom: 25px;
+    right: 232px; */
+    max-width: 57px;
+  }
+  
+  @media (max-width: 760px) { 
+    .Footer-ChatButton {
+      display: none;
+    }
+  
+  }

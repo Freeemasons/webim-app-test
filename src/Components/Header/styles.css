@@ -1,0 +1,90 @@
+.Navigation {
+  font-family: "ubuntu";
+}
+
+.Header {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  background: linear-gradient(152deg, #4ba0b4 9%, #3accc5 50%, #fff 52%);
+  font-family: "ubuntu";
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 750px) { 
+  .Header {
+    background: #fff;
+  }
+}
+
+.Header-Navigation {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #393e6b;
+}
+
+@media (max-width: 760px) { 
+  .Header{
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  .Header-li {
+    display: none;
+  }
+  .Header-logo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 760px) { 
+  .Hamburger-menu, .Header-mobile-Logo {
+    display: none;
+  }
+}
+
+.u-marginRight {
+  margin-right: 23px;
+}
+
+.Navigation-leftMenu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  height: 100%;
+}
+
+.Navigation-rightMenu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.Navigation-logo {
+  max-width: 116px;
+}
+
+@media (max-width: 750px) { 
+  .Navigation-logo {
+    width: 100%;
+  }
+}
+
+.Navigation-listItemP {
+  padding-right: 20px;
+}
+
+.Navigation-listItemFont{
+  font-size: 19px;
+}
+
+.Navigation-end{
+  align-self: flex-end;
+}
+
+.u-height100{
+  height: 100%;
+}
+
+@media (max-width: 750px) { 
+  .Navigation-logo {
+    width: 100%;
+  }
+}
