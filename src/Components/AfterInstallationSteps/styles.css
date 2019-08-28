@@ -32,7 +32,7 @@
   font-weight: lighter;
 }
 
-@media (max-width: 760px) { 
+@media (max-width: 769px) { 
   .Installationparagraph--after{
     font-size: 24px;
   }
@@ -43,7 +43,7 @@
 }
 
 
-@media (max-width: 760px) { 
+@media (max-width: 769px) { 
   .firstInstAfterPar{
     font-size: 24px;
   }

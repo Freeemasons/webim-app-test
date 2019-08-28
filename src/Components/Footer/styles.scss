@@ -4,7 +4,7 @@ $footerSmallTextColor2: #fff;
 
 
 .Footer {
-    background-color: $footer-bg-color;
+    background-color: $footerBgColor;
     font-family: "ubuntu";
     padding-top: 62px;
     padding-bottom: 62px;
@@ -12,7 +12,7 @@ $footerSmallTextColor2: #fff;
   }
   
   .Footer-smallText {
-    color: $footerSmallTextColor;
+    color: $footerSmallTextColor1;
     font-size: 15px;
   }
   
@@ -66,7 +66,7 @@ $footerSmallTextColor2: #fff;
     padding-bottom: 13px;
   }
   
-  @media (max-width: 760px) { 
+  @media (max-width: 769px) { 
     .Footer-mobileHide {
       display: none;
     }
@@ -103,7 +103,7 @@ $footerSmallTextColor2: #fff;
     max-width: 57px;
   }
   
-  @media (max-width: 760px) { 
+  @media (max-width: 769px) { 
     .Footer-ChatButton {
       display: none;
     }

@@ -16,7 +16,7 @@
   text-align: start;
 }
 
-@media (max-width: 760px) { 
+@media (max-width: 769px) { 
   .SimpleInstallation-Link{
     font-size: 24px;
   }

@@ -1,5 +1,6 @@
 {
   "name": "my-vebim-app",
+  "homepage": "https://Freeemasons.github.io/webim-app-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,7 +28,8 @@
     "eslint-plugin-react-hooks": "^1.6.1",
     "file-loader": "3.0.1",
     "flexboxgrid": "^6.3.1",
-    "fs-extra": "7.0.1",
+    "fs-extra": "^8.1.0",
+    "gh-pages": "^2.1.1",
     "html-webpack-plugin": "4.0.0-beta.5",
     "identity-obj-proxy": "3.0.0",
     "is-wsl": "^1.1.0",
@@ -68,7 +70,9 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "watch-less": "react-less-watcher -d src"
+    "watch-less": "react-less-watcher -d src",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
