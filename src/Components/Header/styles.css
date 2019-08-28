@@ -10,7 +10,7 @@
   margin-bottom: 5px;
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 769px) { 
   .Header {
     background: #fff;
   }
@@ -29,12 +29,21 @@
   .Header-li {
     display: none;
   }
+  .Navigation-leftMenu{
+    justify-content: center;
+  }
+  .Header-mobile-Logo {
+    margin-right: auto;
+  }
+  .mobile-logoRight {
+    margin-right: auto;
+  }
   .Header-logo {
     width: 100%;
   }
 }
 
-@media (min-width: 760px) { 
+@media (min-width: 769px) { 
   .Hamburger-menu, .Header-mobile-Logo {
     display: none;
   }
@@ -61,7 +70,7 @@
   max-width: 116px;
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 769px) { 
   .Navigation-logo {
     width: 100%;
   }
@@ -83,7 +92,7 @@
   height: 100%;
 }
 
-@media (max-width: 750px) { 
+@media (max-width: 769px) { 
   .Navigation-logo {
     width: 100%;
   }

@@ -13,21 +13,21 @@ class Header extends Component {
 
             <Col lg={2} xs={12} className="u-height100">
               <ul className="Navigation-leftMenu u-height100">
-                <li>
+                <li className="Header-mobile-Logo">
                   <img
                     src="../menu-mobile.png"
                     alt=""
                     className="Hamburger-menu"
                   />
-                  <li>
-                    <img
-                      src="../2490870.png"
-                      alt=""
-                      className="Navigation-logo Header-mobile-Logo"
-                    />
-                  </li>
                 </li>
-                <li className="Navigation-listItem Navigation-listItemFont Navigation-listItemP Header-li">
+                <li className="mobile-logo mobile-logoRight">
+                  <img
+                    src="../2490870.png"
+                    alt=""
+                    className="Navigation-logo "
+                  />
+                </li>
+                <li className="Navigation-listItem Navigation-listItemFont Navigation-listItemP Header-li " >
                   Вход
                 </li>
                 <li className="Navigation-listItem Navigation-listItemFont Header-li">Регистрация</li>

@@ -10,7 +10,7 @@ class Installation extends Component {
         <Grid fluid>
 
           <Row center="xs" center="xs">
-            <Col lg={6} xs={12}>
+            <Col lg={6} xs={10}>
               <header>
                 <h1 className="Installation-h1Header">Установка webim</h1>
               </header>
