@@ -22,10 +22,12 @@ class AfterInstallationSteps extends Component {
               <ul className="Installation-paragraph Installation-paragraph--htmlSection">
                 <li className="AfterInst-ListItem">
                   <img src="../step_01.svg" className="imgAfter" />
-                  <h3 className="AfterInstListItem--h3">Шаг 1.</h3>
-                  <p className="Installation-paragraph Installationparagraph--after">
-                    Создание учетной записи компании и администратора
+                  <div className="step-1">
+                    <h3 className="AfterInstListItem--h3">Шаг 1.</h3>
+                    <p className="Installation-paragraph Installationparagraph--after">
+                      Создание учетной записи компании и администратора
                   </p>
+                  </div>
                 </li>
                 <li className="AfterInst-ListItem">
                   <img src="../step_02.svg" className="imgAfter" />

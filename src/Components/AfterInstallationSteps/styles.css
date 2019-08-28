@@ -35,6 +35,15 @@
 @media (max-width: 769px) { 
   .Installationparagraph--after{
     font-size: 24px;
+    margin: 0;
+  }
+  .step-1{
+    display: flex;
+  }
+  .AfterInstListItem--h3{
+    margin: 0;
+    flex-shrink: 0;
+    margin-right: 5px;
   }
 }
 
