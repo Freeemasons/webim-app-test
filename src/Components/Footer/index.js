@@ -12,7 +12,7 @@ class Footer extends Component {
       <footer className="Footer">
         <Grid fluid>
           <Row >
-            <Col xs={12} lg={2}>
+            <Col xs={10} lg={2}>
 
               <ul className="Footer-Navigation">
                 <li className="">

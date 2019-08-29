@@ -29,7 +29,7 @@ class Installation extends Component {
 
 
           <Row center="xs" className="u-Padding30">
-            <Col lg={6} xs={12}>
+            <Col lg={6} xs={10}>
               <Row start="xs">
                 <Col >
                   <button className="Button Button--standartText Button--marRight20">

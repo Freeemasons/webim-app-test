@@ -11,7 +11,7 @@ class Header extends Component {
 
           <Row start="xs" className="u-height100">
 
-            <Col lg={2} xs={12} className="u-height100">
+            <Col lg={2} xs={10} className="u-height100">
               <ul className="Navigation-leftMenu u-height100">
                 <li className="Header-mobile-Logo">
                   <img

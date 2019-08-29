@@ -9,7 +9,7 @@ class Channels extends Component {
       <section className="Installation-Section u-bgWhite">
         <Grid fluid>
           <Row center="xs" center="xs">
-            <Col lg={6} xs={12}>
+            <Col lg={6} xs={10}>
               <p className="Installation-paragraph ChannelsMobile-p">
                 Webim – это не только онлайн-консультант. Интегрируйте и другие
                 каналы, чтобы клиенты могли обращаться к вам любым удобным
@@ -18,7 +18,7 @@ class Channels extends Component {
             </Col>
           </Row>
           <Row center="xs" middle="xs" top="lg">
-            <Col lg={2} xs={12}>
+            <Col lg={2} xs={10}>
               <ul>
                 <li className="AfterInst-ListItem Channels-margTop">
                   <img src="../sn.svg" className="imgChannels " />
@@ -55,7 +55,7 @@ class Channels extends Component {
                 </li>
               </ul>
             </Col>
-            <Col lg={2} xs={12} middle="xs" middle="lg">
+            <Col lg={2} xs={10} middle="xs" middle="lg">
               <ul>
                 <li className="AfterInst-ListItem Channels-margTop">
                   <img src="../feedback.svg" className="imgChannels" />
@@ -81,7 +81,7 @@ class Channels extends Component {
                 </li>
               </ul>
             </Col>
-            <Col lg={2} xs={12}>
+            <Col lg={2} xs={10}>
               <ul>
                 <li className="AfterInst-ListItem Channels-margTop">
                   <img src="../app.svg" className="imgChannels" />

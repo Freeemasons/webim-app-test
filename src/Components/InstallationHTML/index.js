@@ -9,7 +9,7 @@ class InstallationHTML extends Component {
       <section className="Installation-Section">
         <Grid fluid>
           <Row center="xs" center="xs">
-            <Col lg={6} xs={12}>
+            <Col lg={6} xs={10}>
               <header>
                 <h1 className="Installation-h1Header InstallationWeb-header">Установка HTML-кода</h1>
               </header>

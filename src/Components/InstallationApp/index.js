@@ -9,7 +9,7 @@ class InstallationApp extends Component {
       <section className="Installation-Section u-bgWhite">
         <Grid fluid>
           <Row center="xs" center="xs">
-            <Col lg={6} xs={12}>
+            <Col lg={6} xs={10}>
               <header>
                 <h1 className="Installation-h1Header InstallationHtml-header">
                   УСТАНОВКА ПРИЛОЖЕНИЯ ДЛЯ ОПЕРАТОРОВ WEBIM DASHBOARD
