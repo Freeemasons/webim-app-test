@@ -44,7 +44,7 @@
 }
 
 @media (min-width: 769px) { 
-  .Hamburger-menu, .Header-mobile-Logo {
+  .Hamburger-menu, .Header-mobile-Logo, .mobile-logoRight, .mobile-logo {
     display: none;
   }
 }
