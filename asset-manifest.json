@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/webim-app-test/static/css/main.043dd4fe.chunk.css",
-    "main.js": "/webim-app-test/static/js/main.591d86ce.chunk.js",
-    "main.js.map": "/webim-app-test/static/js/main.591d86ce.chunk.js.map",
+    "main.css": "/webim-app-test/static/css/main.25a2f6fe.chunk.css",
+    "main.js": "/webim-app-test/static/js/main.b0ff8e27.chunk.js",
+    "main.js.map": "/webim-app-test/static/js/main.b0ff8e27.chunk.js.map",
     "runtime~main.js": "/webim-app-test/static/js/runtime~main.0f21bd65.js",
     "runtime~main.js.map": "/webim-app-test/static/js/runtime~main.0f21bd65.js.map",
     "static/css/2.22d6b5ec.chunk.css": "/webim-app-test/static/css/2.22d6b5ec.chunk.css",
     "static/js/2.3e273aab.chunk.js": "/webim-app-test/static/js/2.3e273aab.chunk.js",
     "static/js/2.3e273aab.chunk.js.map": "/webim-app-test/static/js/2.3e273aab.chunk.js.map",
     "index.html": "/webim-app-test/index.html",
-    "precache-manifest.9f4cccd2c7f48a1e0daf7559f96d7178.js": "/webim-app-test/precache-manifest.9f4cccd2c7f48a1e0daf7559f96d7178.js",
+    "precache-manifest.df618e98b17fd039410eb94cdfc539c3.js": "/webim-app-test/precache-manifest.df618e98b17fd039410eb94cdfc539c3.js",
     "service-worker.js": "/webim-app-test/service-worker.js",
     "static/css/2.22d6b5ec.chunk.css.map": "/webim-app-test/static/css/2.22d6b5ec.chunk.css.map",
-    "static/css/main.043dd4fe.chunk.css.map": "/webim-app-test/static/css/main.043dd4fe.chunk.css.map",
+    "static/css/main.25a2f6fe.chunk.css.map": "/webim-app-test/static/css/main.25a2f6fe.chunk.css.map",
     "static/media/index.css": "/webim-app-test/static/media/ubuntu.1c5965c2.ttf"
   }
 }
