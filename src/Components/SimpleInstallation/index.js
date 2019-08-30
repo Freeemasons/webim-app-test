@@ -31,7 +31,7 @@ class SimpleInstallation extends Component {
                   <ul className="Installation-Navigation">
                     <li className="SimpleInstallation-linkColumn">
                       <img
-                        src="../SimpleInstallation1.png"
+                        src="./SimpleInstallation1.png"
                         alt=""
                         className="simpleInstImg"
                       />
