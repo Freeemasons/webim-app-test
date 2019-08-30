@@ -22,6 +22,12 @@
   margin-bottom: 80px;
 }
 
+@media (max-width: 320px) {
+.InstallationWeb-header{
+  margin-bottom: 20px;
+}
+}
+
 .InstallationHtml-li{
   margin-bottom: 60px;
 }

@@ -36,7 +36,7 @@ class Header extends Component {
 
 
 
-            <Col lgOffset={5} mdOffset={5} lg={4} xs={6}>
+            <Col lgOffset={4} mdOffset={4} lg={4} xs={6}>
               <ul className="Navigation-rightMenu u-height100">
                 <li className="Navigation-listItem Navigation-listItemFont u-marginRight Header-li">
                   Возможности

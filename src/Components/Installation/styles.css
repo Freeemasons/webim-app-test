@@ -1,18 +1,7 @@
-/* @font-face {
-  font-family: "ubuntu";
-  src: local("HelveticaNeueCyr-Light"), url("../../ubuntu.ttf") format("ttf");
-  font-weight: 200;
-  font-style: normal;
-} */
-
 .Container-Main {
   max-width: 100%;
   margin-left: 37%;
   margin-right: 37%;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
 }
 
 .Installation-Section {
@@ -38,8 +27,6 @@
 .u-Padding30 {
   padding-top: 33px;
 }
-
-
 
 .Button {
   padding: 10px;
@@ -85,5 +72,28 @@
     font-size: 24px;
     margin-bottom: 35px;
 
+  }
+}
+
+@media (max-width: 320px) { 
+  .Button--standartText {
+    font-size: 17px;
+  }
+  .u-Padding30{
+    display: none;
+  }
+}
+
+@media (max-width: 320px) { 
+  .Installation-h1Header {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .Installation-Link{
+    font-size: 17px;
+  }
+  .Installation-Section{
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }

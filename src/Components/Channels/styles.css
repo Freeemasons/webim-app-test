@@ -9,6 +9,16 @@
     }
   }
 
+  @media (max-width: 320px) { 
+ 
+    .SimpleInstallation-Link{
+      margin-left: 0;
+    }
+    .ChannelsMobile-p{
+      font-size: 16px;
+    }
+  }
+
   .Channels-margTop{
     margin-top: 48px;
   }

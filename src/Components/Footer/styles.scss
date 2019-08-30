@@ -42,8 +42,6 @@ $footerSmallTextColor2: #fff;
   }
   
   .Navigation-Menu--footerRightLayout {
-    /* display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(95px, 1fr)); */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -79,9 +77,6 @@ $footerSmallTextColor2: #fff;
     }
   }
   
-  .Footer-smallText--emailC {
-  }
-  
   .Footer-smallText--emailS{
     margin-bottom: 19px;
     margin-top: 11px;
@@ -96,10 +91,6 @@ $footerSmallTextColor2: #fff;
   }
   
   .Footer-ChatButton{
-    /* position: absolute;
-    z-index: 1;
-    bottom: 25px;
-    right: 232px; */
     max-width: 57px;
   }
   
@@ -107,5 +98,15 @@ $footerSmallTextColor2: #fff;
     .Footer-ChatButton {
       display: none;
     }
-  
   }
+
+  @media (max-width: 769px) { 
+    .Footer-smallText {
+      font-size: 1rem;
+    }
+    .Footer{
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+

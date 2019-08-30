@@ -20,13 +20,22 @@
   .SimpleInstallation-Link{
     font-size: 24px;
   }
+  .Installation-Navigation{
+    flex-direction: column;
+  }
 }
 
 .SimpleInstallation-linkColumn {
   display: flex;
   flex-direction: column;
-  align-items: start;
-  
+  align-items: start; 
+}
+
+@media (max-width: 320px) { 
+  .SimpleInstallation-linkColumn {
+    align-items: center;
+    margin-top: 20px;
+  }
 }
 
 .u-mRight {
@@ -35,4 +44,15 @@
 
 .simpleInstImg {
   height: 108px;
+}
+
+@media (max-width: 320px) { 
+  .SimpleInstallation-Link{
+    font-size: 17px;
+    margin: 0;
+  }
+  .Installation-Navigation{
+    flex-direction: column;
+  }
+
 }
