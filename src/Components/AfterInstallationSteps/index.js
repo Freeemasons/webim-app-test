@@ -21,7 +21,7 @@ class AfterInstallationSteps extends Component {
               </p>
               <ul className="Installation-paragraph Installation-paragraph--htmlSection">
                 <li className="AfterInst-ListItem">
-                  <img src="../step_01.svg" className="imgAfter" />
+                  <img src="./step_01.svg" className="imgAfter" />
                   <div className="step-1">
                     <h3 className="AfterInstListItem--h3">Шаг 1.</h3>
                     <p className="Installation-paragraph Installationparagraph--after">
@@ -30,33 +30,33 @@ class AfterInstallationSteps extends Component {
                   </div>
                 </li>
                 <li className="AfterInst-ListItem">
-                  <img src="../step_02.svg" className="imgAfter" />
+                  <img src="./step_02.svg" className="imgAfter" />
                   <h3 className="AfterInstListItem--h3">Шаг 2.</h3>
                   <p className="Installation-paragraph Installationparagraph--after">
                     Активация учетной записи
                   </p>
                 </li>
                 <li className="AfterInst-ListItem">
-                  <img src="../step_03.svg" className="imgAfter" />
+                  <img src="./step_03.svg" className="imgAfter" />
                   <h3 className="AfterInstListItem--h3">Шаг 3.</h3>
                   <p className="Installation-paragraph Installationparagraph--after">Начальная настройка</p>
                 </li>
                 <li className="AfterInst-ListItem">
-                  <img src="../step_04.svg" className="imgAfter" />
+                  <img src="./step_04.svg" className="imgAfter" />
                   <h3 className="AfterInstListItem--h3">Шаг 4.</h3>
                   <p className="Installation-paragraph Installationparagraph--after">
                     Установка кнопки Webim на сайт
                   </p>
                 </li>
                 <li className="AfterInst-ListItem">
-                  <img src="../step_05.svg" className="imgAfter" />
+                  <img src="./step_05.svg" className="imgAfter" />
                   <h3 className="AfterInstListItem--h3">Шаг 5.</h3>
                   <p className="Installation-paragraph Installationparagraph--after">
                     Регистрация оператора
                   </p>
                 </li>
                 <li className="AfterInst-ListItem">
-                  <img src="../step_06.svg" className="imgAfter" />
+                  <img src="./step_06.svg" className="imgAfter" />
                   <h3 className="AfterInstListItem--h3">Шаг 6.</h3>
                   <p className="Installation-paragraph Installationparagraph--after">Тест сервиса</p>
                 </li>

@@ -15,14 +15,14 @@ class Header extends Component {
               <ul className="Navigation-leftMenu u-height100">
                 <li className="Header-mobile-Logo">
                   <img
-                    src="../menu-mobile.png"
+                    src="./menu-mobile.png"
                     alt=""
                     className="Hamburger-menu"
                   />
                 </li>
                 <li className="mobile-logo mobile-logoRight">
                   <img
-                    src="../2490870.png"
+                    src="./2490870.png"
                     alt=""
                     className="Navigation-logo "
                   />
@@ -46,7 +46,7 @@ class Header extends Component {
                 <li className="Navigation-listItem Navigation-listItemFont u-marginRight Header-li">Помощь</li>
                 <li className="Header-logo">
                   <img
-                    src="../2490870.png"
+                    src="./2490870.png"
                     alt=""
                     className="Navigation-logo Header-li"
                   />

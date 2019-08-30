@@ -21,7 +21,7 @@ class Channels extends Component {
             <Col lg={2} xs={10}>
               <ul>
                 <li className="AfterInst-ListItem Channels-margTop">
-                  <img src="../sn.svg" className="imgChannels " />
+                  <img src="./sn.svg" className="imgChannels " />
                   <a
                     href=""
                     target="_blank"
@@ -32,7 +32,7 @@ class Channels extends Component {
                   </a>
                 </li>
                 <li className="AfterInst-ListItem Channels-margTop">
-                  <img src="../msn.svg" className="imgChannels" />
+                  <img src="./msn.svg" className="imgChannels" />
                   <a
                     href=""
                     target="_blank"
@@ -43,7 +43,7 @@ class Channels extends Component {
                   </a>
                 </li>
                 <li className="AfterInst-ListItem Channels-margTop">
-                  <img src="../chatbots.svg" className="imgChannels" />
+                  <img src="./chatbots.svg" className="imgChannels" />
                   <a
                     href=""
                     target="_blank"
@@ -58,7 +58,7 @@ class Channels extends Component {
             <Col lg={2} xs={10} middle="xs" middle="lg">
               <ul>
                 <li className="AfterInst-ListItem Channels-margTop">
-                  <img src="../feedback.svg" className="imgChannels" />
+                  <img src="./feedback.svg" className="imgChannels" />
                   <a
                     href=""
                     target="_blank"
@@ -69,7 +69,7 @@ class Channels extends Component {
                   </a>
                 </li>
                 <li className="AfterInst-ListItem Channels-margTop">
-                  <img src="../yad.svg" className="imgChannels" />
+                  <img src="./yad.svg" className="imgChannels" />
                   <a
                     href=""
                     target="_blank"
@@ -84,7 +84,7 @@ class Channels extends Component {
             <Col lg={2} xs={10}>
               <ul>
                 <li className="AfterInst-ListItem Channels-margTop">
-                  <img src="../app.svg" className="imgChannels" />
+                  <img src="./app.svg" className="imgChannels" />
                   <a
                     href=""
                     target="_blank"
@@ -95,7 +95,7 @@ class Channels extends Component {
                   </a>
                 </li>
                 <li className="AfterInst-ListItem Channels-margTop">
-                  <img src="../email.svg" className="imgChannels" />
+                  <img src="./email.svg" className="imgChannels" />
                   <a
                     href=""
                     target="_blank"

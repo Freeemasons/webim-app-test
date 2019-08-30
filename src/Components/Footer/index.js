@@ -57,16 +57,16 @@ class Footer extends Component {
                   понедельник - пятница с 10.00 - 18.00
                 </li>
                 <li className="">
-                  <img src="../Bino.svg" alt="" className="Footer-Icon" />
-                  <img src="../vk.svg" alt="" className="Footer-Icon" />
-                  <img src="../Fb.svg" alt="" className="Footer-Icon" />
-                  <img src="../Inst.svg" alt="" className="Footer-Icon" />
+                  <img src="./Bino.svg" alt="" className="Footer-Icon" />
+                  <img src="./vk.svg" alt="" className="Footer-Icon" />
+                  <img src="./Fb.svg" alt="" className="Footer-Icon" />
+                  <img src="./Inst.svg" alt="" className="Footer-Icon" />
                 </li>
               </ul>
             </Col>
 
             <Col xsOffset={11} xs={1}>
-              <img src="../msn.svg" className="Footer-ChatButton" />
+              <img src="./msn.svg" className="Footer-ChatButton" />
             </Col>
           </Row>
 
