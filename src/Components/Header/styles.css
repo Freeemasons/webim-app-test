@@ -1,11 +1,9 @@
 .Navigation {
-  font-family: "ubuntu";
 }
 
 .Header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
   background: linear-gradient(152deg, #4ba0b4 9%, #3accc5 50%, #fff 52%);
-  font-family: "ubuntu";
   height: 100px;
   margin-bottom: 5px;
 }
@@ -43,9 +41,20 @@
   }
 }
 
+@media (min-width: 320px) { 
+  .Hamburger-menu, .Header-mobile-Logo, .mobile-logoRight, .mobile-logo {
+    display: block;}
+}
+
 @media (min-width: 769px) { 
   .Hamburger-menu, .Header-mobile-Logo, .mobile-logoRight, .mobile-logo {
     display: none;
+  }
+  .marginRightMenu{
+    display: flex;
+  }
+  .Navigation-rightMenu{
+    margin-left: auto;
   }
 }
 

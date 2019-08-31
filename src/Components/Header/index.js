@@ -11,7 +11,7 @@ class Header extends Component {
 
           <Row start="xs" className="u-height100">
 
-            <Col lg={2} xs={10} className="u-height100">
+            <Col lg={2} xs={10} sm={2} className="u-height100">
               <ul className="Navigation-leftMenu u-height100">
                 <li className="Header-mobile-Logo">
                   <img
@@ -36,7 +36,7 @@ class Header extends Component {
 
 
 
-            <Col lgOffset={4} mdOffset={4} lg={4} xs={6}>
+            <Col lgOffset={6} mdOffset={4} md={4} lg={4} xs={6} sm={10} className="marginRightMenu">
               <ul className="Navigation-rightMenu u-height100">
                 <li className="Navigation-listItem Navigation-listItemFont u-marginRight Header-li">
                   Возможности
