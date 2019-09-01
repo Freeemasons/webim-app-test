@@ -1,27 +1,25 @@
 .InstApp {
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 @media (max-width: 769px) { 
     .InstApp {
-        font-size: 24px;
+        font-size: var(--main-text-769-size);
     }
     .Installation-link{
-        font-size: 30px;
+        font-size: var(--main-text-link-769-size);
     }
     .InstallationHtml-p{
-        font-size: 24px;
+        font-size: var(--main-text-769-size);
     }
   }
 
-
-  
-  @media (max-width: 320px) { 
+  @media (max-width: 540px) { 
     .Installation-link{
-        font-size: 17px;
+        font-size: var(--main-text-link-320-size);
     }
     .InstallationHtml-p{
-        font-size: 16px;
+        font-size: var(--main-text-320-size);
     }
   }
   

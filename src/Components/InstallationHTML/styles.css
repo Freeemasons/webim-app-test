@@ -1,6 +1,5 @@
-.Installation-paragraph--htmlSectiont {
+.Installation-paragraph--htmlSection {
   text-align: start;
-  font-size: 24px;
 }
 
 /* .Link {
@@ -13,8 +12,8 @@
 }
 
 .Installation-link {
-  color: #0da088;
-  font-size: 24px;
+  color: var(--dark-cyan);
+  font-size: var(--main-text-link-769-size);
   
 }
 
@@ -22,10 +21,10 @@
   margin-bottom: 80px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 540px) {
 .InstallationWeb-header{
   margin-bottom: 20px;
-}
+  }
 }
 
 .InstallationHtml-li{
@@ -33,5 +32,5 @@
 }
 
 .InstallationHtml-p{
-  font-size: 16px;
+  font-size: 1rem;
 }

@@ -18,7 +18,8 @@ class Channels extends Component {
             </Col>
           </Row>
           <Row center="xs" middle="xs" top="lg">
-            <Col lg={2} xs={10}>
+
+            <Col xs={10} lg={2}>
               <ul>
                 <li className="AfterInst-ListItem Channels-margTop">
                   <img src="./sn.svg" className="imgChannels " />
@@ -55,7 +56,8 @@ class Channels extends Component {
                 </li>
               </ul>
             </Col>
-            <Col lg={2} xs={10} middle="xs" middle="lg">
+
+            <Col xs={10} lg={2} middle="xs">
               <ul>
                 <li className="AfterInst-ListItem Channels-margTop">
                   <img src="./feedback.svg" className="imgChannels" />
@@ -81,7 +83,8 @@ class Channels extends Component {
                 </li>
               </ul>
             </Col>
-            <Col lg={2} xs={10}>
+
+            <Col xs={10} lg={2}>
               <ul>
                 <li className="AfterInst-ListItem Channels-margTop">
                   <img src="./app.svg" className="imgChannels" />

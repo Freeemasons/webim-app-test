@@ -8,7 +8,7 @@ class InstallationApp extends Component {
     return (
       <section className="Installation-Section u-bgWhite">
         <Grid fluid>
-          <Row center="xs" center="xs">
+          <Row center="xs">
             <Col lg={6} xs={10}>
               <header>
                 <h1 className="Installation-h1Header InstallationHtml-header">
@@ -19,7 +19,7 @@ class InstallationApp extends Component {
                 Чтобы быть на связи с клиентами всегда, установите приложение
                 Webim Dashboard
               </p>
-              <ul className="Installation-paragraph Installation-paragraph--htmlSection">
+              <ul className="Installation-paragraph">
                 <li className="InstallationHtml-li">
                   <a
                     href=""

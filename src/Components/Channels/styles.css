@@ -5,17 +5,17 @@
 
 @media (max-width: 769px) { 
     .ChannelsMobile-p{
-      font-size: 24px;
+      font-size: var(--main-text-769-size);
     }
   }
 
-  @media (max-width: 320px) { 
+  @media (max-width: 540px) { 
  
     .SimpleInstallation-Link{
       margin-left: 0;
     }
     .ChannelsMobile-p{
-      font-size: 16px;
+      font-size: var(--main-text-320-size);
     }
   }
 

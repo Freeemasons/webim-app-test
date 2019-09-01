@@ -7,21 +7,24 @@
 }
 
 .u-bgWhite {
-  background-color: #fff;
+  background-color: var(--white-color);
 }
 
 .SimpleInstallation-Link {
-  margin-left: 48px;
+  margin-left: 22px;
   margin-top: 10px;
   text-align: start;
 }
 
 @media (max-width: 769px) { 
   .SimpleInstallation-Link{
-    font-size: 24px;
+    font-size: var(--main-text-link-769-size);
   }
   .Installation-Navigation{
     flex-direction: column;
+  }
+  .SimpleInstallation-linkColumn:nth-of-type(2){
+    margin-top: 30px;
   }
 }
 
@@ -31,7 +34,7 @@
   align-items: start; 
 }
 
-@media (max-width: 320px) { 
+@media (max-width: 540px) { 
   .SimpleInstallation-linkColumn {
     align-items: center;
   }
@@ -45,13 +48,12 @@
   height: 108px;
 }
 
-@media (max-width: 320px) { 
+@media (max-width: 540px) { 
   .SimpleInstallation-Link{
-    font-size: 17px;
+    font-size: var(--main-text-link-320-size);
     margin: 0;
   }
   .Installation-Navigation{
     flex-direction: column;
   }
-
 }

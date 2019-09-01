@@ -1,46 +1,45 @@
-/* .Installation-paragrap--afterInst1 {
-  list-style-image: url("../step_01.svg");
-} */
-
 .imgAfter {
   max-width: 75px;
   height: 100px;
   margin-right: 37px;
 }
 
-.AfterInst-ListItem {
+.AfterInst-ListItem{
   display: flex;
   justify-content: start;
   margin-top: 10px;
   align-items: center;
-  color: #393e6b;
+  color: var(--navy-color);
 }
 
-
-
 .Button--standartBgBlue{
-  background-color: #393e6b;
+  background-color: var(--navy-color);
   padding-left: 23px;
   padding-right: 23px;
 }
 
 .AfterInstListItem--h3{
   margin-right: 10px;
-  color: #393e6b;
+  color: var(--h3--color-web);
 }
 
 .Installationparagraph--after{
-  color: #393e6b;
+  color: var(--h3--color-web);
   font-weight: lighter;
 }
 
 @media (max-width: 769px) { 
   .Installationparagraph--after{
-    font-size: 24px;
+    font-size: var(--main-text-769-size);
     margin: 0;
   }
   .step-1{
-    display: flex;
+    display: column;
+    align-items: center;
+  }
+  .step1__text {   
+    text-align: center;
+    max-width: 240px;
   }
   .AfterInstListItem--h3{
     margin: 0;
@@ -49,9 +48,22 @@
   }
 }
 
-@media (max-width: 320px) { 
+.step-1 {
+  display: flex;
+  align-items: baseline;
+}
+.step-1__title {
+  flex-shrink: 0;
+}
+
+.step-1__text {
+  max-width: 100%;
+  text-align: left;
+}
+
+@media (max-width: 540px) { 
   .firstInstAfterPar{
-    font-size: 17px;
+    font-size: var(--main-text-web-size);
   }
 }
 
@@ -59,26 +71,25 @@
   margin-bottom: 69px;
 }
 
-
 @media (max-width: 769px) { 
   .firstInstAfterPar{
-    font-size: 24px;
+    font-size: var(--main-text-769-size);
   }
 }
 
-@media (max-width: 320px) { 
+@media (max-width: 540px) { 
   .AfterInst-ListItem {
-    font-size: 17px;
+    font-size: var(--main-text-320-size);
     flex-direction: column;
   }
   .Installation-paragraph{
     margin: 0 auto;
-    font-size: 16px;
+    font-size: var(--main-text-320-size);
   }
   .imgAfter{
     margin: 0;
   }
   .Installationparagraph--after{
-    font-size: 17px;
+    font-size: var(--main-text-320-size);
   }
 }

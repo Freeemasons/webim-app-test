@@ -8,6 +8,45 @@ body {
   padding: 0;
 }
 
+:root {
+  --header-gradient-bg-color: linear-gradient(152deg, #4ba0b4 9%, #3accc5 50%, #00000024 35%, #fff 36%);
+  --header-box-shadow-web: 4px 6px 5px 0px rgba(0, 0, 0, 0.1);
+  --header-box-shadow-mobile: 4px 6px 5px 0px rgba(0, 0, 0, 0.1);
+  --header-mobile-bg-color: #fff;
+  --header-navigation-text-color: #393e6b;
+
+  --second-bg-color: #eff4f4;
+
+  --main-text-web-size: 1rem;
+  --main-text-769-size: 1.5rem;
+  --main-text-320-size: 1rem;
+
+  --main-text-link-web-size: 1.5rem;
+  --main-text-link-769-size: 1.875rem;
+  --main-text-link-320-size: 1rem;
+
+  --h1-web-text-size: 1.875rem;
+  --h1-769-text-size: 3rem;
+  --h1-320-text-size: 1.75rem;
+
+  --btn-standart-text-size-web: 0.9rem;
+  --btn-standart-text-size-769: 1.5rem;
+  --btn-standart-text-size-320: 1.063rem;
+
+  --main-text-color: #74757b;
+  --main-h1-color: #393e6b;
+
+  --button-standart-bg-color-web: #2cd3b8;
+  --btn-standart-text-color-web: #fff;
+  --btn-standart-text-color-transparent-web: #393e6b;
+
+  --h3--color-web: #393e6b;
+  
+  --navy-color: #393e6b;
+  --white-color: #fff;
+  --dark-cyan: #0da088;
+}
+
 /* @font-face {
   font-family: "ubuntu";
   src: local("ubuntu"), url("./Assets/Fonts/ubuntu.ttf") format("ttf");
@@ -15,10 +54,10 @@ body {
   font-style: normal;
 } */
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
 
 * {
   box-sizing: border-box;

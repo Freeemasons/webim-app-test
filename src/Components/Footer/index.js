@@ -27,7 +27,7 @@ class Footer extends Component {
               </ul>
             </Col>
 
-            <Col xs={2}>
+            <Col lg={2}>
               <ul className="Footer-Navigation Footer-mobileHide">
                 <li className="Footer-liMainNumber"> +7 (800) 500-49-32</li>
                 <li className=" Footer-bigText Footer-liMainNumber Footer-liNumber">
@@ -45,7 +45,7 @@ class Footer extends Component {
               </ul>
             </Col>
 
-            <Col xsOffset={6} xs={2}>
+            <Col lgOffset={6} xs={2}>
               <ul className="Footer-Navigation Footer-mobileHide">
                 <li className=" Footer-smallText Footer-smallText--emailC u-whiteText">
                   contact@webim.ru
@@ -64,7 +64,9 @@ class Footer extends Component {
                 </li>
               </ul>
             </Col>
+          </Row>
 
+          <Row>
             <Col xsOffset={11} xs={1}>
               <img src="./msn.svg" className="Footer-ChatButton" />
             </Col>

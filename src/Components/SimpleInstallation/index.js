@@ -8,7 +8,7 @@ class SimpleInstallation extends Component {
     return (
       <section className="Installation-Section u-bgWhite">
         <Grid fluid>
-          <Row center="xs" center="xs">
+          <Row center="xs">
             <Col lg={6} xs={10}>
               <header>
                 <h1 className="Installation-h1Header">Простая установка</h1>
@@ -36,7 +36,7 @@ class SimpleInstallation extends Component {
                         className="simpleInstImg"
                       />
                       <a
-                        href=""
+                        href="#"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="Link Navigation-link SimpleInstallation-Link Installation-link u-mRight "
@@ -52,7 +52,7 @@ class SimpleInstallation extends Component {
                         className="simpleInstImg"
                       />
                       <a
-                        href=""
+                        href="#"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="Link Navigation-link SimpleInstallation-Link Installation-link"

@@ -5,21 +5,21 @@
 }
 
 .Installation-Section {
-  background-color: #eff4f4;
+  background-color: var(--second-bg-color);
   padding-top: 85px;
   padding-bottom: 70px;
 
 }
 
 .Installation-paragraph {
-  color: #74757b;
+  color: var(--main-text-color);
   text-align: start;
-  font-size: 18px;
+  font-size: var(--main-text-web-size);
 }
 
 .Installation-h1Header {
-  color: #393e6b;
-  font-size: 30px;
+  color: var(--main-h1-color);
+  font-size: var(--h1-web-text-size);
   text-transform: uppercase;
   text-align: start;
 }
@@ -38,19 +38,19 @@
 .Button--standartText {
   margin: 2px 0;
   min-width: 263px;
-  background: #2cd3b8;
+  background: var(--button-standart-bg-color-web);
   cursor: pointer;
-  color: white;
+  color: var(--btn-standart-text-color-web);
   padding-right: 20px;
-  font-size: 14.4px;
+  font-size: var(--btn-standart-text-size-web);
   height: 48px;
   text-transform: uppercase;
-  font-size: 14.4px;
+  font-size: var(--btn-standart-text-size-web);
 }
 
 .Button--standartTextTransparent {
   background-color: transparent;
-  color: #393e6b;
+  color: var(--btn-standart-text-color-transparent-web);
   border: 1px solid #393e6b;
 }
 
@@ -61,7 +61,7 @@
 @media (max-width: 769px) { 
   .Installation-h1Header {
     margin-bottom: 66px;
-    font-size: 45px;
+    font-size: var(--h1-769-text-size);
   }
   .u-Padding30 {
     margin-top: 50px;
@@ -69,28 +69,25 @@
   .Button--standartText {
     min-width: 100%;
     min-height: 93px;
-    font-size: 24px;
+    font-size: var(--btn-standart-text-size-769);
     margin-bottom: 35px;
 
   }
 }
 
-@media (max-width: 320px) { 
+@media (max-width: 540px) { 
   .Button--standartText {
-    font-size: 17px;
-  }
-  .u-Padding30{
-    display: none;
+    font-size: var(--btn-standart-text-size-320);
   }
 }
 
-@media (max-width: 320px) { 
+@media (max-width: 540px) { 
   .Installation-h1Header {
-    font-size: 28px;
+    font-size: var(--h1-320-text-size);
     margin-bottom: 20px;
   }
   .Installation-Link{
-    font-size: 17px;
+    font-size: 1rem;
   }
   .Installation-Section{
     padding-top: 20px;

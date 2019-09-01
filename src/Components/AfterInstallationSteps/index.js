@@ -23,8 +23,9 @@ class AfterInstallationSteps extends Component {
                 <li className="AfterInst-ListItem">
                   <img src="./step_01.svg" className="imgAfter" />
                   <div className="step-1">
-                    <h3 className="AfterInstListItem--h3">Шаг 1.</h3>
-                    <p className="Installation-paragraph Installationparagraph--after">
+                    <h3 className="AfterInstListItem--h3 step-1__title
+                    ">Шаг 1.</h3>
+                    <p className="Installation-paragraph step-1__text Installationparagraph--after">
                       Создание учетной записи компании и администратора
                   </p>
                   </div>
